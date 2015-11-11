@@ -1,0 +1,305 @@
+/*
+Plantilla de estilos para la aplicación dinkbit
+*/
+/* 
+    Created on : 31/10/2015, 02:35:44 PM
+    Author     : Luis Ubaldo Godínez Flores
+*/
+
+
+
+.navbar-fixed-top .nav{
+    padding:15px;
+}
+
+
+
+.menu-button{
+    background-color: transparent;
+    border-color: white;
+    border-style:solid;
+    border-width:thin;
+}
+
+.dinkbit-menu{
+    color: white;
+}
+
+.attention-text{
+    margin-top: 30%;
+    margin-left:10%;
+    margin-right: 10%;
+    color:white;
+    background-color:transparent;
+    border:none;
+}
+
+.blockquote-dinkbit{
+    border:none;
+}
+
+.footer-dinkbit{
+    background-color:rgba(239,238,243,0.9);
+}
+        
+.menu-footer-dinkbit{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(239,238,243,0.9);
+    border-color: transparent;
+}
+
+.contact-footer-dinkbit{
+    background-color:rgba(43,44,111,0.99);
+    color:white;
+    padding:15px;
+}
+
+.information-column{
+    width:50%;
+    margin:0 auto;
+}
+
+.contrast{
+    background-color: rgba(239,238,243,0.9);
+}
+
+/*Estilos aplicados a la página home en el elemento header*/
+@media screen and (min-width:1200px){
+    .home-header{
+        height:800px;
+        background: linear-gradient(rgba(43,44,111,0.65),rgba(43,44,111,0.65)),
+            url('../images/encabezados/header-home.jpg');
+    }
+    
+    .menu-dinkabit{
+        background-color: transparent;
+        color:white;
+        border-color: transparent;
+    }
+    
+    .navbar-default
+        .navbar-nav>li>a{
+        color:white;
+        }
+        
+    .navbar-default
+    .navbar-nav>li>a:hover{
+        color:white;
+        background-color: rgba(43,44,111,0.99);
+        }
+    }
+
+@media screen and (max-width:992px){
+    .home-header{
+        height:650px;
+        background: linear-gradient(rgba(43,44,111,0.99),rgba(43,44,111,0.99));
+        /*url('../images/encabezados/header-home.jpg');*/
+    }
+    
+    .menu-dinkabit{
+        background-color: transparent;
+        color:rgba(43,44,111,0.99);
+        border-color: transparent;
+    }
+    
+    .navbar-default
+    .navbar-nav>li>a{
+        color:white;
+        }
+        
+    .navbar-default
+    .navbar-nav>li>a:hover{
+        color:white;
+        background-color: rgba(43,44,111,0.99);
+        }
+}
+
+@media screen and (max-width:768px){
+    .home-header{
+        height:500px;
+        background: linear-gradient(rgba(43,44,111,0.99),rgba(43,44,111,0.99));
+            /*url('../images/encabezados/header-home.jpg');*/
+    }
+    
+    .menu-dinkabit{
+        background-color: transparent;
+        color:rgba(43,44,111,0.99);
+        border-color: transparent;
+    }
+    
+    .navbar-default
+        .navbar-nav>li>a{
+        color:rgba(43,44,111,0.99);
+        background-color: white;
+        }
+    
+    .navbar-default
+    .navbar-nav>li>a:hover{
+        color:white;
+        background-color: rgba(43,44,111,0.99);
+        }
+}
+
+/*Estilos aplicados a la página Contacto, en el elemento header*/
+
+@media screen and (min-width:1200px){
+    .contact-header{
+        height:600px;
+        background: linear-gradient(rgba(43,44,111,0.65),rgba(43,44,111,0.65)),
+            url('../images/encabezados/header-contacto.jpg');
+    }
+    
+    .menu-dinkabit{
+        background-color: transparent;
+        color:white;
+        border-color: transparent;
+    }
+    
+    .navbar-default
+        .navbar-nav>li>a{
+        color:white;
+        }
+        
+    .navbar-default
+    .navbar-nav>li>a:hover{
+        color:white;
+        background-color: rgba(43,44,111,0.99);
+        }
+    }
+
+@media screen and (max-width:992px){
+    .contact-header{
+        height:460px;
+        background: linear-gradient(rgba(43,44,111,0.99),rgba(43,44,111,0.99));
+        /*url('../images/encabezados/header-home.jpg');*/
+    }
+    
+    .menu-dinkabit{
+        background-color: transparent;
+        color:rgba(43,44,111,0.99);
+        border-color: transparent;
+    }
+    
+    .navbar-default
+    .navbar-nav>li>a{
+        color:white;
+        }
+        
+    .navbar-default
+    .navbar-nav>li>a:hover{
+        color:white;
+        background-color: rgba(43,44,111,0.99);
+        }
+}
+
+@media screen and (max-width:768px){
+    .contact-header{
+        height:360px;
+        background: linear-gradient(rgba(43,44,111,0.99),rgba(43,44,111,0.99));
+            /*url('../images/encabezados/header-home.jpg');*/
+    }
+    
+    .menu-dinkabit{
+        background-color: transparent;
+        color:rgba(43,44,111,0.99);
+        border-color: transparent;
+    }
+    
+    .navbar-default
+        .navbar-nav>li>a{
+        color:rgba(43,44,111,0.99);
+        background-color: white;
+        }
+    
+    .navbar-default
+    .navbar-nav>li>a:hover{
+        color:white;
+        background-color: rgba(43,44,111,0.99);
+        }
+}
+
+.map-contact{
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+
+/*Estilos aplicados a la página Contacto, en el elemento header*/
+
+@media screen and (min-width:1200px){
+    .cotiza-header{
+        height:600px;
+        background: linear-gradient(rgba(43,44,111,0.65),rgba(43,44,111,0.65)),
+            url('../images/encabezados/header-cotizador.jpg');
+    }
+    
+    .menu-dinkabit{
+        background-color: transparent;
+        color:white;
+        border-color: transparent;
+    }
+    
+    .navbar-default
+        .navbar-nav>li>a{
+        color:white;
+        }
+        
+    .navbar-default
+    .navbar-nav>li>a:hover{
+        color:white;
+        background-color: rgba(43,44,111,0.99);
+        }
+    }
+
+@media screen and (max-width:992px){
+    .cotiza-header{
+        height:460px;
+        background: linear-gradient(rgba(43,44,111,0.99),rgba(43,44,111,0.99));
+        /*url('../images/encabezados/header-home.jpg');*/
+    }
+    
+    .menu-dinkabit{
+        background-color: transparent;
+        color:rgba(43,44,111,0.99);
+        border-color: transparent;
+    }
+    
+    .navbar-default
+    .navbar-nav>li>a{
+        color:white;
+        }
+        
+    .navbar-default
+    .navbar-nav>li>a:hover{
+        color:white;
+        background-color: rgba(43,44,111,0.99);
+        }
+}
+
+@media screen and (max-width:768px){
+    .cotiza-header{
+        height:360px;
+        background: linear-gradient(rgba(43,44,111,0.99),rgba(43,44,111,0.99));
+            /*url('../images/encabezados/header-home.jpg');*/
+    }
+    
+    .menu-dinkabit{
+        background-color: transparent;
+        color:rgba(43,44,111,0.99);
+        border-color: transparent;
+    }
+    
+    .navbar-default
+        .navbar-nav>li>a{
+        color:rgba(43,44,111,0.99);
+        background-color: white;
+        }
+    
+    .navbar-default
+    .navbar-nav>li>a:hover{
+        color:white;
+        background-color: rgba(43,44,111,0.99);
+        }
+}
+
+

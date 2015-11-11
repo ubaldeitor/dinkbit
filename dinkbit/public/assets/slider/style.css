@@ -1,0 +1,33 @@
+.jsSliderHandlerTrack{
+    background-color: #F7F7F7;
+    height: 1em;
+    width: 100%;
+}
+
+.jsSliderHandlerFill{
+    height: 1em;
+    position: absolute;
+    background-color: #A19B88;
+}
+
+.jsSliderHandler{
+    width: 1em;
+    height: 1.5em;
+    display: inline-block;
+    position: absolute;
+    background-color: #3E3F41;
+}
+
+.handlerCenterPoint{
+    display: block;
+    position: relative;
+    width: 0.1em;
+    height: 0.75em;
+    background-color: #A19B88;
+    border: 0;
+}
+
+input{
+    margin: 0 0 1em 0;
+    padding: 0;
+}
